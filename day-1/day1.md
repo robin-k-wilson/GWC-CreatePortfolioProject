@@ -1,19 +1,38 @@
-# GWC Create Portfolio Project
+# Day 1 (this will be the hardest day): Setup development environment and get the hello world of Jekyll setup
+
+1. Setup git
+2. Create github account
+3. Download Ruby and RubyGems
+4. Hello world Jekyll
+
+Different OS Systems mean different installation processes
+
+# Windows
+
+1. Install: https://chocolatey.org/
+2.
+
+# Mac
+
+1. Install iTerm https://www.iterm2.com/
+2. Cmd + Spacebar
+3. Terminal dow
+
+Windows:
+https://chocolatey.org/
+
+Mac:
+in Terminal
+
+ruby -v
+
+https://brew.sh/
 
 # Hello Girls Who Code!
 
 This project will help you make a porfolio website and blog website to post your future coding projects.
 
-You'll learn:
-1. How to setup a dev environment
-2. Git + Github + Github Pages
-3. CSS + Javascript (minimally)
-4. Markdown
-5. Jekyll + Jekyll Themes
-
-**Most importantly, you'll have a portfolio/blog website to show off to prospective internships, your family, and friends!**
-
-**Note:** For this project, we'll be using pen names for safety. This can be changed later.
+For this project, we'll be using pen names for safety. This can be changed later.
 
 ## Why make a porfolio/blog website?
 
@@ -61,5 +80,14 @@ There are many different **themes** out there so you can choose what your websit
 2. Write out descriptions for your projects
 3. Have anything you're proud of? Let's showcase it!
 
-# Happy portfolio
+#### The Portfolio Creation Game Plan for today
+1. Setup github + follow along with the command line
+2. Setup homebrew, ruby, gems
+3. Startup Jekyll and get it to show up in Github Pages
+
+#### Stretch Goals
+1. Setup a free theme
+2. Take photos of your A-Frame project
+3. Host these photos
+
 
