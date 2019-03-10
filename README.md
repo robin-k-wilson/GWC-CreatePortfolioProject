@@ -18,7 +18,7 @@ You'll learn:
 ## Why make a porfolio/blog website?
 
 To show off your cool projects of course and will be an AMAZING asset for the future to build off of! In this day and age, most everyone should have a website especially programmers.
-For developers, it can be a minimal website. If you're a designer, it would be good to make it pretty.
+For developers, it can be a minimal website. If you're a designer, make it pretty.
 
 This will be your space. Do whatever you'd like with it.
 
@@ -61,5 +61,5 @@ There are many different **themes** out there so you can choose what your websit
 2. Write out descriptions for your projects
 3. Have anything you're proud of? Let's showcase it!
 
-# Happy portfolio
+# Happy portfolioing!
 
