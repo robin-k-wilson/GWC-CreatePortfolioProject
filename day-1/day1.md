@@ -1,4 +1,5 @@
-# Day 1 (this will be the hardest day)
+# Day 1 (this will be the most time consuming day)
+
 ## Setup dev environment and create Jekyll Hello World!
 
 1. Setup git
@@ -7,9 +8,27 @@
 4. Hello World! Jekyll
 
 #### The Portfolio Creation Game Plan for today
+
 1. Setup github + follow along with the command line
 2. Setup homebrew, ruby, gems
 3. Startup Jekyll and get it to show up in browser http://localhost:4000
+
+# 1. Setup git and github and learn some command line/terminal commands
+
+Make a github account if you have not already:
+
+https://github.com/
+
+In the command line run:
+`git -v`
+
+If the command line did not print a version number, install git:
+
+https://git-scm.com/downloads
+
+Create a new repository for your new website on github.
+
+# 2. Install Jekyll and Dependencies
 
 Different OS Systems mean different installation processes.
 
@@ -21,19 +40,15 @@ While waiting, why not browse Jekyll themes:
 
 From the (Jekyll on macOS)[https://jekyllrb.com/docs/installation/macos/] installation page
 
-1. Install Homebrew
-	1. Open terminal
-	2. Run this command
-    	- `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-2. Install Ruby in terminal
-	- `brew install ruby`
-3. Change Ruby path
-    - `export PATH=/usr/local/opt/ruby/bin:$PATH`
-4. Check Ruby
-	- `ruby -v`
-	- `which ruby`
-5. Install Jekyll
+1. Check Ruby version and if you're running it
+	- `which ruby` - will respond with a file path
+	- `ruby -v` - will respond with a version we need 2.2.5 or above!
+2. Install Jekyll
 	- `gem install bundler jekyll`
+
+If you need to update or install a later version of ruby, use this guide:
+
+https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/
 
 # Windows
 
@@ -45,18 +60,18 @@ From the (Jekyll on Windows)[https://jekyllrb.com/docs/installation/windows/] in
 3. In command prompt type
 	`gem install jekyll bundler`
 
-# To double check dependencies for macOS and Windows in Terminal/Command Prompt
-- `ruby -v`
-- `gem -v`
-- `gcc -v`
-- `g++ -v`
-- `make -v`
+# 3. Make your first Jekyll site and push to update your Github
 
-# Quick Start with Jekyll
+## Follow these instructions
 
 https://jekyllrb.com/docs/
 
-#### Stretch Goals
-1. Setup a free theme
-2. Take photos of your A-Frame project
-3. Host these photos
+## Update your repo in github
+
+1. `git status`
+2. `git add -A`
+3. `git status`
+3. `git commit -m "Created initial Jekyll website with jekyll new"`
+4. `git push`
+
+#### Finished Day 1!
